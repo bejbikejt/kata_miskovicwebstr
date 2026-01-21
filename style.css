@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+p {
+    color: rgb(122, 92, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    width: 600px;
+    background-color: rgb(232, 178, 108);
+    padding: 20px;
+}
+.paragraf_2 {color: rgb(222, 194, 11); background-color: rgba(215, 177, 40, 0.5); }
+.novi_blok{
+    background-color:rgba(215, 177, 40, 0.5);
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+}
+h1, h2  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(254, 158, 3);
+}
+
+span {color: rgb(217, 46, 61);}
+.pozadina {
+    background-image: url(slike/slika.01.jpg);
+}
+.drugapozadina {
+    background-color: rgb(242, 224, 65);
+}
+a:link {
+    color: black;
+    background-color: azure;
+    padding: 5px;
+    line-height: 40px;
+    border: lpx solid #000000;
+}
+a:hover{
+     background-color: darkgrey;
+}
+img{
+    height: 300px;
+}
+
+.video2{
+    position: relative;
+    top: -380px;
+    left: 150px;
+
+}
+
+.audio{
+    position:relative;
+    top: -200px;
+}
